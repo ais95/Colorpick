@@ -5,7 +5,7 @@ body{
 }
 .container{
     width: 100%;
-    padding-top: 48px;
+    margin: 48px auto;
     background-color: #ffffff;
     box-sizing: border-box;
     overflow: hidden;
@@ -40,16 +40,18 @@ body{
             
 .msg-dialog{
     position: fixed;
-    left: 12px;
-    top: 12px;
-    padding: 7px 18px;
+    width: 180px;
+    top: 0px;
+    left: 50%;
+    margin-left: -90px;
+    padding: 12px 24px;
     text-align: center;
-    font-size: 17px;
-    background-color: #F5BF05;
+    font-size: 22px;
+    background-color: #000000;
     border-radius: 3px;
     color: #ffffff;
     display: none;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);        
 }
 
 /*..........Responsive Area...............*/
