@@ -1,2 +1,2 @@
 # COLOR PICKER
-### https://ais95.github.io/colorpick
+### ais95.github.io/colorpick
